@@ -19,3 +19,4 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 		leaf = l + r;
 		return ((!l && !r) ? leaf + 1 : leaf + 0);
 	}
+}
